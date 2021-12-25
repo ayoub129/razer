@@ -37,16 +37,23 @@
                 </a>
               </li>
               <li class="list-style-none">
-                <a href="#">
+                <span class="burger">
                   <i class="fas fa-align-right"></i>
-                </a>
+                </span>
               </li>
+            </ul>
+
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="#">Home</a></li>
+              <li class="nav-item"><a href="#">About</a></li>
+              <li class="nav-item"><a href="#">Shop</a></li>
+              <li class="nav-item"><a href="#">Contact</a></li>
             </ul>
           </nav>
         </header>
       </div>
       <!-- sect hero -->
-      <section class="hero">
+      <section class="hero" id="hero">
         <div
           class="hero-description"
           data-aos="fade-up"
@@ -76,10 +83,12 @@
         <div class="hero-image" data-aos="fade-left" data-aos-duration="3000">
           <img src="assets/img/headset.png" alt="product" class="img-fluid" />
           <ul class="flex-column d-flex">
-            <li class="list-style-none border-right fs-14">01</li>
-            <li class="ms-5 mt-1"></li>
-            <li class="ms-5"></li>
-            <li class="ms-5"></li>
+            <a href="#hero">
+              <li class="list-style-none border-right fs-14">01</li>
+            </a>
+            <a href="#desc"> <li class="ms-5 mt-1"></li> </a>
+            <a href="#char"> <li class="ms-5"></li> </a>
+            <a href="#test"> <li class="ms-5"></li> </a>
           </ul>
         </div>
         <div class="social-media" data-aos="fade-down" data-aos-duration="3000">
@@ -90,7 +99,7 @@
       </section>
     </div>
     <!-- sect descript -->
-    <section class="description">
+    <section class="description" id="desc">
       <div class="desc-image" data-aos="fade-right" data-aos-duration="3000">
         <img src="assets/img/razer-users.jpg" alt="" class="img-fluid" />
       </div>
@@ -111,24 +120,26 @@
           data-aos="fade-down"
           data-aos-duration="3000"
         >
-          <li class="ms-5 mt-1 text-primary"></li>
-          <li
-            class="
-              list-style-none
-              border-right border-primary
-              fs-14
-              text-primary
-            "
+          <a href="#hero"> <li class="ms-5 mt-1 text-primary"></li></a>
+          <a href="#desc">
+            <li
+              class="
+                list-style-none
+                border-right border-primary
+                fs-14
+                text-primary
+              "
+            >
+              02
+            </li></a
           >
-            02
-          </li>
-          <li class="ms-5 text-primary"></li>
-          <li class="ms-5 text-primary"></li>
+          <a href="#char"> <li class="ms-5 text-primary"></li></a>
+          <a href="#test"> <li class="ms-5 text-primary"></li></a>
         </ul>
       </div>
     </section>
     <!-- sect characteristics -->
-    <section class="characteristics mt-4">
+    <section class="characteristics mt-4" id="char">
       <ul class="characteristics-list">
         <h2 class="fs-2 mb-1">characteristics</h2>
         <li
@@ -233,19 +244,21 @@
           data-aos="fade-down"
           data-aos-duration="3000"
         >
-          <li class="ms-5 mt-1 text-primary"></li>
-          <li class="ms-5 text-primary"></li>
-          <li
-            class="
-              list-style-none
-              border-right border-primary
-              fs-14
-              text-primary
-            "
+          <a href="#hero"> <li class="ms-5 mt-1 text-primary"></li></a>
+          <a href="#desc"> <li class="ms-5 text-primary"></li></a>
+          <a href="#char">
+            <li
+              class="
+                list-style-none
+                border-right border-primary
+                fs-14
+                text-primary
+              "
+            >
+              03
+            </li></a
           >
-            03
-          </li>
-          <li class="ms-5 text-primary"></li>
+          <a href="#test"> <li class="ms-5 text-primary"></li></a>
         </ul>
       </div>
     </section>
@@ -255,6 +268,7 @@
       <section
         class="testimonials mt-4"
         data-aos="zoom-in"
+        id="test"
         data-aos-duration="2000"
       >
         <div class="card-testimonials">
@@ -277,14 +291,21 @@
         data-aos="fade-down"
         data-aos-duration="2000"
       >
-        <li class="ms-5 mt-1 text-primary"></li>
-        <li class="ms-5 text-primary"></li>
-        <li class="ms-5 text-primary"></li>
-        <li
-          class="list-style-none border-right border-primary fs-14 text-primary"
+        <a href="#hero"> <li class="ms-5 mt-1 text-primary"></li></a>
+        <a href="#desc"> <li class="ms-5 text-primary"></li></a>
+        <a href="#char"> <li class="ms-5 text-primary"></li></a>
+        <a href="#test">
+          <li
+            class="
+              list-style-none
+              border-right border-primary
+              fs-14
+              text-primary
+            "
+          >
+            04
+          </li></a
         >
-          04
-        </li>
       </ul>
     </div>
     <!-- footer -->
