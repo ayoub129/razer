@@ -57,6 +57,7 @@ body {
   width: 30px;
 }
 
+
 .navbar {
   width: 8%;
 }
@@ -119,7 +120,8 @@ body {
 /* section hero */
 .hero {
   width: 70%;
-  margin: 3em auto;
+  margin: 0 auto;
+  padding-top: 6em;
   display: flex;
   align-items: center;
   position: relative;
